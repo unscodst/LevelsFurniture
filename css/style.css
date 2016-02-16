@@ -30,6 +30,16 @@
     border-radius: 0px;
 }
 
+.outernews {
+    background-color: lightgray;
+    padding: 15px;
+}
+.innernews {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+}
+
 .carousel-control.left {
     background-image: none;
 }
@@ -37,6 +47,22 @@
     background-image: none;
 }
 
+.left-inner {
+    position: relative;
+}
+.left-inner input{
+    padding-left: 30px;
+}
+.left-inner i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+    z-index: 5;
+}
+
+.inpt {
+    
+}
 
 
 
