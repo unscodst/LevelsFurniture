@@ -2,10 +2,54 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.btn {
+    background-color: #38c674;
+    color: white;
+    
+}
+
 #headcontact {
     padding: 15px 0 34px 0;
     margin-left: 58.33333%;
+    color: #4b4c4e;
 }
+#headcontact > a {
+    color: #4b4c4e;
+}
+
+.glyphicon-shopping-cart {
+    font-size: 1.5em;
+    vertical-align: middle;
+    color: #7d7d7d;
+}
+
+.cartbtn {
+    background-color: white;
+    color: #7d7d7d;
+    border: 2px solid #38c674;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.items {
+    color: white;
+    background-color: #38c674;
+    margin: 0;
+    margin-right: -8px;
+    padding: 9px 13px 9px 13px;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+.cartpointer {
+    transform: rotate(90deg);
+    margin-right: -8px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #38c674;
+}
+
+
 #titlebar {
     padding-bottom: 30px;
 }
@@ -31,8 +75,7 @@ body {
 }
 
 .cart {
-    margin: 0;
-    padding-left: 12%;
+    vertical-align: middle;
 }
 
 .navbar-inverse {
@@ -64,15 +107,12 @@ body {
     border-radius: 0px;
 }
 
-.green {
-    background-color: #38c674;
-}
+
 
 
 .btn-lg {
     padding: 10px 50px;
     border-radius: 3px;
-    background-color: #38c674;
 }
 
 #featprod {
@@ -130,6 +170,7 @@ body {
 
 
 
+
 .left-inner {
     position: relative;
 }
@@ -144,6 +185,7 @@ body {
 .outernews {
     background-color: lightgray;
     padding: 15px;
+    margin-bottom: 84px;
 }
 .innernews {
     position: relative;
