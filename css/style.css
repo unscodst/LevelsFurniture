@@ -9,3 +9,18 @@
 #cart {
     padding-left: 26%;
 }
+
+.jumbotron {
+    border-radius: 1px;
+}
+
+.green {
+    background-color: #38c674;
+}
+
+
+.btn-lg {
+    padding: 10px 50px;
+    border-radius: 3px;
+    background-color: #38c674;
+}
