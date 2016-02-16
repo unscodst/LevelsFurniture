@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 #headcontact {
     padding: 15px 0 34px 0;
     margin-left: 58.33333%;
@@ -5,13 +9,55 @@
 #titlebar {
     padding-bottom: 30px;
 }
-
-#cart {
-    padding-left: 26%;
+.searchbar {
+    margin-left: -40px;
+    margin-top: -4px;
+    margin-right: -92px;
 }
 
-.navbar {
+.searchinpt {
+    background-color: #e4e9ec;
+    border: none;
+}
+.glyphicon-menu-hamburger {
+    padding: 0 5px 0 0;
+}
+
+
+
+.searchbtn {
+    color: white;
+    background-color: #9ca8b6;
+}
+
+.cart {
+    margin: 0;
+    padding-left: 12%;
+}
+
+.navbar-inverse {
     border-radius: 0px;
+    background-color: #24364a;
+    border: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+    font-size: .85em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #3c546c;
+    margin-left: -15px;
+    padding-right: 170px;
+    font-size: 1em;
+    margin-right: 3px;
 }
 
 .container .jumbotron {
