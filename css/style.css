@@ -12,35 +12,6 @@ body {
 #headcontact > a {
     color: #4b4c4e;
 }
-.fa-bars {
-    font-size: 1.2em;
-    text-align: center;
-    padding-right: 8px;
-}
-.cartbtn {
-    background-color: white;
-    color: #7d7d7d;
-    border: 2px solid #38c674;
-    border-left: none;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
-.items {
-    color: white;
-    background-color: #38c674;
-    margin: 0;
-    margin-right: -8px;
-    padding: 9px 13px 9px 13px;
-    vertical-align: middle;
-    border-radius: 3px;
-}
-.cartpointer {
-    transform: rotate(90deg);
-    margin-right: -8px;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 8px solid #38c674;
-}
 #titlebar {
     padding-bottom: 30px;
 }
@@ -53,9 +24,7 @@ body {
     background-color: #e4e9ec;
     border: none;
 }
-.glyphicon-menu-hamburger {
-    padding: 0 5px 0 0;
-}
+
 .searchbtn {
     color: white;
     background-color: #9ca8b6;
@@ -64,6 +33,41 @@ body {
     margin-top: -5px;
     padding-left: 125px;
 }
+.glyphicon-shopping-cart {
+    font-size: 1.5em;
+    vertical-align: middle;
+    color: #7d7d7d;
+}
+.cartpointer {
+    transform: rotate(90deg);
+    margin-right: -8px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #38c674;
+}
+.items {
+    color: white;
+    background-color: #38c674;
+    margin: 0;
+    margin-right: -8px;
+    padding: 9px 13px 9px 13px;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+.cartbtn {
+    background-color: white;
+    color: #7d7d7d;
+    border: 2px solid #38c674;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.cartbtn:hover {
+    background-color: #38c674;
+    color: white;
+    border: 2px solid #38c674;
+}
+
 .navbar-inverse {
     border-radius: 0px;
     background-color: #24364a;
@@ -87,6 +91,11 @@ body {
     padding-right: 170px;
     font-size: 1em;
     margin-right: 3px;
+}
+.fa-bars {
+    font-size: 1.2em;
+    text-align: center;
+    padding-right: 8px;
 }
 .container .jumbotron {
     border-radius: 0px;
@@ -383,10 +392,10 @@ body {
     border-radius: 2px;
     font-size: 1.5em
 }
-#subfoot img{
-    margin: 10px 5px;
-}
 .subfooter {
     background-color: #1e2f41;
     padding: 5px;
+}
+#subfoot img{
+    margin: 10px 5px;
 }
