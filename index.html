@@ -21,24 +21,26 @@
         <div>
             <header>
                 <div class="container">
-                    <div class="row hidden-xs" id="headcontact">
-                        <a><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-                            Need Help? Call Us 123-456-7890 |
-                        </a>
-                        <a><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
-                            Orders |
-                        </a>
-                        <a><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                            My Account
-                        </a>
+                    <div class="row hidden-xs col-md-12" id="headcontact">
+                        <div id="contactinfo">
+                            <a><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                                Need Help? Call Us 123-456-7890 |
+                            </a>
+                            <a><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                                Orders |
+                            </a>
+                            <a><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                                My Account
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="container" id="titlebar">
                     <div class="row">
-                        <div class="col-lg-4 hidden-xs">
+                        <div class="col-md-4 col-sm-12 hidden-xs">
                             <img src="img/header.jpg" alt="Living Furniture">
                         </div>
-                        <div class="col-lg-4  col-lg-push-4 visible-lg cart">
+                        <div class="col-md-4 col-md-push-4 hidden-sm hidden-xs cart">
                             <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                             <span class="caret cartpointer"></span>
                             <span class="items">0</span>                            
@@ -46,7 +48,7 @@
                                 My Cart <span class="caret"></span>
                             </button>
                         </div>
-                        <div class="col-lg-4  col-lg-pull-4 hidden-xs">
+                        <div class="col-md-4 col-md-pull-4 col-sm-4 hidden-xs">
                             <div class="input-group searchbar">
                                 <input type="text" class="form-control searchinpt" placeholder="Search our entire store...">
                                 <span class="input-group-btn">
@@ -56,7 +58,7 @@
                         </div>
                     </div>
                 </div>
-                <nav class="navbar navbar-inverse custom-navbar col-lg-12">
+                <nav class="navbar navbar-inverse custom-navbar col-md-12">
                     <div class="container">
                         <!--Bottom Nav bar-->
                         <div class="navbar-header">
@@ -67,15 +69,15 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand"><img src="img/header.jpg" class="visible-xs headerlogo"></a>
-                            <div class="navbar-brand cart hidden-lg">
+                            <div class="navbar-brand cart hidden-lg hidden-md">
                                 <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                                 <span class="caret cartpointer"></span>
                                 <span class="items">0</span>                            
                             </div>
                         </div>
-                        <div id="navbar" class="collapse navbar-collapse visible-lg">
+                        <div id="navbar" class="collapse navbar-collapse">
                             <ul class="nav navbar-nav">
-                                <li class="dropdown active visible-lg">
+                                <li class="dropdown active hidden-sm hidden-xs">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-bars"></i> All Categories
                                     </a>
@@ -122,18 +124,18 @@
                             </div>
                             <!-- Example row of columns -->
                             <div class="row">
-                                <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12">  
+                                <div class="col-md-4 col-sm-4 col-xs-12">  
                                     <div class="subimgone">
                                         <p class="subimgtext">Living Room</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="col-md-4 col-sm-4 col-xs-12">
                                     <div class="subimgtwo">
                                         <p class="subimgtext">Office Equipment</p>
                                     </div>
 
                                 </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="col-md-4 col-sm-4 col-xs-12">
                                     <div class="subimgthree">
                                         <p class="subimgtext">Dining Room</p>
                                     </div>
@@ -154,7 +156,7 @@
                 <section>
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-3 col-xs-12 outernews" id="featprod">
+                            <div class="col-md-3 col-xs-12 outernews" id="featprod">
                                 <p class="featprodtitle">Featured</p>
                                 <p class="featprodtitle">Products</p>
                                 <p>&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;</p>
@@ -164,13 +166,13 @@
                                 </div>
                                 <i class="glyphicon glyphicon-triangle-right hidden-xs"></i>
                             </div>
-                            <div class="col-lg-9 col-xs-12 col-sm-9">
+                            <div class="col-md-9 col-xs-12 col-sm-9">
                                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                                     <!-- Wrapper for slides -->
                                     <div class="carousel-inner">
                                         <div class="item active">
                                             <div class="row">
-                                                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="col-md-4 col-md-6 col-sm-6 col-xs-12">
                                                     <div class="col-item">
                                                         <div class="photo">
                                                             <img src="img/lamp.jpg" class="img-responsive" alt="a" />
@@ -187,7 +189,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4 col-md-6 hidden-xs hidden-sm">
+                                                <div class="col-md-4 col-md-6 hidden-xs hidden-sm">
                                                     <div class="col-item">
                                                         <div class="photo">
                                                             <img src="img/table.jpg" class="img-responsive" alt="a" />
@@ -204,7 +206,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4 col-md-6 col-sm-6 hidden-xs">
+                                                <div class="col-md-4 col-md-6 col-sm-6 hidden-xs">
                                                     <div class="col-item">
                                                         <div class="photo">
                                                             <img src="img/chair.jpg" class="img-responsive" alt="a" />
@@ -225,7 +227,7 @@
                                         </div>
                                         <div class="item">
                                             <div class="row">
-                                                <div class="col-lg-4 col-md-6 col-sm-6 hidden-xs">
+                                                <div class="col-md-4 col-md-6 col-sm-6 hidden-xs">
                                                     <div class="col-item">
                                                         <div class="photo">
                                                             <img src="img/lamp.jpg" class="img-responsive" alt="a" />
@@ -242,7 +244,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                                <div class="col-md-4 col-md-6 col-sm-6 col-xs-12">
                                                     <div class="col-item">
                                                         <div class="photo">
                                                             <img src="img/table.jpg" class="img-responsive" alt="a" />
@@ -259,7 +261,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4 visible-lg">
+                                                <div class="col-md-4 visible-lg">
                                                     <div class="col-item">
                                                         <div class="photo">
                                                             <img src="img/lamp.jpg" class="img-responsive" alt="a" />
@@ -305,12 +307,12 @@
                 <section>
                     <div class="container">
                         <div class="row outernews">
-                            <div class="container innernews col-lg-12 col-sm-12">
-                                <div class="col-lg-6">
+                            <div class="container innernews col-md-12 col-sm-12">
+                                <div class="col-md-6">
                                     <p>Join Our Newsletter</p>
                                     <p>Receive the latest news on new promotions, exclusive offers, and new arrivals.</p>
                                 </div>
-                                <div class="col-lg-6 hidden-xs">
+                                <div class="col-md-6 hidden-xs">
                                     <div class="input-group newsletter">
                                         <i class="glyphicon glyphicon-envelope white" aria-hidden="true"></i>
                                         <input type="text" class="form-control searchinpt" placeholder="Enter your email address...">
@@ -327,7 +329,7 @@
                     <div class="mainfooter">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-3 col-sm-4 contact hidden-xs">
+                                <div class="col-md-3 col-sm-4 contact hidden-xs">
                                     <h4>Contact</h4>
                                     <div>
                                         <i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>
@@ -342,7 +344,7 @@
                                         <p id="email"> Email Us</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-sm-4 col-xs-12 footersection">
+                                <div class="col-md-3 col-sm-4 col-xs-12 footersection">
                                     <h4>Categories</h4>
                                     <span class="glyphicon glyphicon-plus visible-xs"></span>
                                     <div class="hidden-xs">
@@ -356,7 +358,7 @@
                                         <p>Sale</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-sm-4 col-xs-12 footersection">
+                                <div class="col-md-3 col-sm-4 col-xs-12 footersection">
                                     <h4>Customer Service</h4>
                                     <span class="glyphicon glyphicon-plus visible-xs"></span>
                                     <div class="hidden-xs">
@@ -373,12 +375,12 @@
                                     <h4>Payments</h4>
                                     <span class="glyphicon glyphicon-plus visible-xs"></span>
                                 </div>
-                                <div class="col-lg-3 col-xs-12" id="footerlogo">
+                                <div class="col-md-3 col-xs-12" id="footerlogo">
                                     <div class="hidden-xs hidden-sm">
                                         <img src="img/footer.jpg" alt="Living Furniture">
                                     </div>
                                     <h4 class="col-xs-12">Let's Connect</h4>
-                                    <div id="socialmedia" class="col-xs-12 col-sm-4 col-lg-12">
+                                    <div id="socialmedia" class="col-xs-12 col-sm-4 col-md-12">
                                         <i class="fa fa-facebook"></i>
                                         <i class="fa fa-twitter"></i>
                                         <i class="fa fa-instagram"></i>

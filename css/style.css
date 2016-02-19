@@ -364,20 +364,18 @@ body {
 }
 @media (min-width:768px) and (max-width:991px) {
     #headcontact {
-        padding: 15px 102px 34px 0;
+        padding: 15px 0 34px 0;
         color: #4b4c4e;
         margin: 0;
+    }
+    #contactinfo {
         text-align: center;
-        width: 100%;
     }
     #headcontact > a {
         color: #4b4c4e;
     }
     #titlebar {
-        padding-bottom: 30px;
-        display: block;
         text-align: center;
-        width: 100%;
     }
     .navbar-header {
         padding-top: 15px;
@@ -456,6 +454,20 @@ body {
     .navbar-inverse .navbar-nav > li > a:hover {
         color: #24364a;
     }
+    .searchbar {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: -360px;
+    }
+    .searchinpt {
+        background-color: #e4e9ec;
+        border: none;
+    }
+    .searchbtn {
+        color: white;
+        background-color: #9ca8b6;
+    }
     .cart {
         margin-top: -5px;
         position: relative;
@@ -482,20 +494,7 @@ body {
         vertical-align: middle;
         border-radius: 3px;
     }
-    .searchbar {
-        position: absolute;
-        margin-top: 52px;
-        padding-left: 160px;
-        padding-right: 250px;
-    }
-    .searchinpt {
-        background-color: #e4e9ec;
-        border: none;
-    }
-    .searchbtn {
-        color: white;
-        background-color: #9ca8b6;
-    }
+
     .glyphicon-search {
         transform: rotate(90deg);
     }
@@ -845,8 +844,11 @@ body {
 @media (min-width:992px){    
     /*My CSS styles for min-width:991*/
     #headcontact {
-        padding: 15px 102px 34px 0;
+        padding: 15px 0 34px 0;
         color: #4b4c4e;
+        margin: 0;
+    }
+    #contactinfo {
         float: right;
     }
     #headcontact > a {
@@ -855,16 +857,18 @@ body {
     #titlebar {
         padding-bottom: 30px;
     }
+    #titlebar img {
+        width: 100%;
+    }
     .searchbar {
-        margin-left: -40px;
         margin-top: -4px;
         margin-right: -80px;
+        float: right;
     }
     .searchinpt {
         background-color: #e4e9ec;
         border: none;
     }
-
     .searchbtn {
         color: white;
         background-color: #9ca8b6;
@@ -911,9 +915,7 @@ body {
         border-radius: 0px;
         background-color: #24364a;
         border: 0;
-    }
-    .navbar-collapse{
-        padding-left: 0px;
+        
     }
     .navbar-inverse .navbar-nav > li > a {
         color: #ffffff;
@@ -976,7 +978,7 @@ body {
                 rgba(0, 0, 0, 0.5)
             ),
             url(http://st.hzcdn.com/simgs/be71b1d309d7e60a_4-8995/modern-living-room.jpg);
-        width: 370px;
+        width: 100%;
         height: 197px;
         background-size: cover;
     }
@@ -987,7 +989,7 @@ body {
                 rgba(0, 0, 0, 0.5)
             ),
             url(http://superherosquad.club/wp-content/uploads/2015/09/modern-office-lobby-furniture-yrv7dnujs.jpg);
-        width: 370px;
+        width: 100%;
         height: 197px;
         background-size: cover;
     }
@@ -998,7 +1000,7 @@ body {
                 rgba(0, 0, 0, 0.5)
             ),
             url(http://www.furnishism.com/photos/modern-dining-room-ideas-4.jpg);
-        width: 370px;
+        width: 100%;
         height: 197px;
         background-size: cover;
 
