@@ -50,13 +50,11 @@ body {
     .navbar-inverse .navbar-nav > li > a:hover {
         color: #24364a;
     }
-
     .headerlogo {
         margin-top: -4px;
         width: 100%;
         text-align: center;
         clear: both;
-
     }
     .cart {
         margin-top: -6px;
@@ -115,7 +113,6 @@ body {
         display: block;
         text-align: center;
     }
-
     .jumbotron h1 {
         font-size: 2.65em;
         margin-top: -3px;
@@ -365,13 +362,11 @@ body {
 @media (min-width:768px) and (max-width:991px) {
     #headcontact {
         padding: 15px 0 34px 0;
-        color: #4b4c4e;
-        margin: 0;
     }
     #contactinfo {
         text-align: center;
     }
-    #headcontact > a {
+    #contactinfo > a {
         color: #4b4c4e;
     }
     #titlebar {
@@ -382,7 +377,6 @@ body {
         padding-bottom: 15px;
         float: none;
     }
-
     .navbar-toggle {
         display: block;
     }
@@ -467,6 +461,9 @@ body {
     .searchbtn {
         color: white;
         background-color: #9ca8b6;
+    }    
+    .glyphicon-search {
+        transform: rotate(90deg);
     }
     .cart {
         margin-top: -5px;
@@ -493,10 +490,6 @@ body {
         padding: 9px 13px 9px 13px;
         vertical-align: middle;
         border-radius: 3px;
-    }
-
-    .glyphicon-search {
-        transform: rotate(90deg);
     }
     .container .jumbotron {
         margin-top: 5px;
@@ -569,7 +562,7 @@ body {
     .subimgtext {
         text-align: center;
         position: absolute;
-        top: 8%;
+        top: 23%;
         width: 80%;
         left: 10%;
         color: white;
@@ -577,15 +570,9 @@ body {
         border-bottom: 5px solid;
         margin-top: 10px;
         margin-bottom: 10px;
-        font-size: 2em;
+        font-size: 1.3em;
         border-top: 2px solid;
         border-bottom: 5px solid;
-    }
-    .subimgone p{
-        top: 23%;
-    }    
-    .subimgthree p{
-        top: 23%;
     }
     #shipping {
         padding: 20px;
@@ -603,7 +590,7 @@ body {
         display: block;
     }
     .featprodtitle {
-        text-align: center;
+
         color: #2b527b;
         font-size: 2em;
         font-weight: bolder;
@@ -612,13 +599,11 @@ body {
         margin-top: -20px;
     }
     #featprod p:nth-child(3) {
-        text-align: center;
         font-size: .6em;
         color: #4a9dcf;
         margin-top: -10px;
     }
     #featprod p:nth-child(4) {
-        text-align: center;
         margin-top: 20px;
     }
     #featprod .glyphicon-triangle-right {
@@ -844,14 +829,13 @@ body {
 @media (min-width:992px){    
     /*My CSS styles for min-width:991*/
     #headcontact {
-        padding: 15px 0 34px 0;
-        color: #4b4c4e;
+        padding: 15px 0 34px 0;        
         margin: 0;
     }
     #contactinfo {
         float: right;
     }
-    #headcontact > a {
+    #contactinfo > a {
         color: #4b4c4e;
     }
     #titlebar {
@@ -928,7 +912,7 @@ body {
     .navbar-inverse .navbar-nav > .active > a:focus {
         color: #ffffff;
         background-color: #3c546c;
-        margin-left: -15px;
+        margin-left: -30px;
         padding-right: 170px;
         font-size: 1em;
         margin-right: 3px;
@@ -1033,7 +1017,6 @@ body {
         width: 23%;
     }
     .featprodtitle {
-        text-align: center;
         color: #2b527b;
         font-size: 2.7em;
         font-weight: bolder;
@@ -1045,11 +1028,8 @@ body {
         font-size: .6em;
         color: #4a9dcf;
         margin-top: -10px;
-        margin-left: 35px;
     }
     #featprod p:nth-child(4) {
-        width: 70%;
-        margin-left: 35px;
         margin-top: 20px;
     }
     #featprod .glyphicon-triangle-right {
@@ -1162,8 +1142,7 @@ body {
     }
     .newsletter .btn-success {
         padding: 9px 15px;
-    }  
-
+    }
     .mainfooter {
         padding-top: 46px;
         padding-bottom: 20px;
@@ -1194,7 +1173,6 @@ body {
     }
     #footerlogo img {
         margin-bottom: 30px;
-        width: 110%;
         float: right;
     }
     #footerlogo {
@@ -1202,15 +1180,16 @@ body {
     }
     #footerlogo h4 {
         margin: 0;
-        margin-left: -26px;
-        padding-bottom: 15px
+        padding-bottom: 15px;
+        margin-left: -43px;
     }
     #socialmedia {
-        margin-left: -26px;
+        margin-left: -43px;
     }
     #socialmedia i {
         font-size: 1.3em;
         margin: 2px;
+        border-radius: 2px;
     }
     #socialmedia i:nth-child(1) {
         background-color: #3b5999;
@@ -1219,45 +1198,39 @@ body {
     }
     #socialmedia i:nth-child(2) {
         background-color: #00acee;
-        padding: 8px 8px;
-        border-radius: 2px;
+        padding: 8px 8px;        
     }
     #socialmedia i:nth-child(3) {
         background-color: #5280a4;
         padding: 8px 8px;
-        border-radius: 2px;
     }
     #socialmedia i:nth-child(4) {
         text-align: center;
         background-color: #de4b39;
         color: #ffffff;
         padding: 6px 8px;
-        border-radius: 2px;
         font-size: 1.5em;
     }
     #socialmedia i:nth-child(5) {
         background-color: #bc0001;
         padding: 6px 6px;
-        border-radius: 2px;
-        font-size: 1.5em
+        font-size: 1.5em;
     }
     #socialmedia i:nth-child(6) {
         background-color: #91d5ec;
         padding: 6px 8px;
-        border-radius: 2px;
-        font-size: 1.5em
+        font-size: 1.5em;
     }
     #socialmedia i:nth-child(7) {
         background-color: #cd1f28;
         padding: 6px 8px;
-        border-radius: 2px;
-        font-size: 1.5em
+        font-size: 1.5em;
     }
     #socialmedia i:nth-child(8) {
         background-color: #ff0084;
         padding: 6px 8px;
         border-radius: 2px;
-        font-size: 1.5em
+        font-size: 1.5em;
     }
     .subfooter {
         background-color: #1e2f41;
