@@ -941,7 +941,7 @@ body {
     }
     .cart {
         margin-top: -5px;
-        padding-left: 125px;
+        left: 51.5%;
     }
     .glyphicon-shopping-cart {
         font-size: 1.5em;
