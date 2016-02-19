@@ -67,6 +67,8 @@ body {
         color: #7d7d7d;
     }
     .cartpointer {
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Safari */
         transform: rotate(90deg);
         margin-right: -9px;
         border-left: 8px solid transparent;
@@ -98,6 +100,8 @@ body {
         border-radius: 0px;        
     }
     .glyphicon-search {
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Safari */
         transform: rotate(90deg);
     }
     .container .jumbotron {
@@ -138,6 +142,17 @@ body {
     }
     .subimgone {
         background-image: 
+            -webkit-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+            url(http://st.hzcdn.com/simgs/be71b1d309d7e60a_4-8995/modern-living-room.jpg); background-image: 
+            -moz-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+            url(http://st.hzcdn.com/simgs/be71b1d309d7e60a_4-8995/modern-living-room.jpg);
+        background-image: 
             linear-gradient(
                 rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)
@@ -150,11 +165,23 @@ body {
     }
     .subimgtwo {
         background-image: 
+            -webkit-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url(http://superherosquad.club/wp-content/uploads/2015/09/modern-office-lobby-furniture-yrv7dnujs.jpg); 
+        background-image: 
+            -moz-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url(http://superherosquad.club/wp-content/uploads/2015/09/modern-office-lobby-furniture-yrv7dnujs.jpg);
+        background-image: 
             linear-gradient(
                 rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)
             ),
-            url(http://superherosquad.club/wp-content/uploads/2015/09/modern-office-lobby-furniture-yrv7dnujs.jpg);
+             url(http://superherosquad.club/wp-content/uploads/2015/09/modern-office-lobby-furniture-yrv7dnujs.jpg);
         background-size: cover;
         background-position: center;
         height: 300px;
@@ -162,11 +189,24 @@ body {
     }
     .subimgthree {
         background-image: 
+            -webkit-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url(http://www.furnishism.com/photos/modern-dining-room-ideas-4.jpg);
+        background-image: 
+            -moz-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url(http://www.furnishism.com/photos/modern-dining-room-ideas-4.jpg);
+        
+        background-image: 
             linear-gradient(
                 rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)
             ),
-            url(http://www.furnishism.com/photos/modern-dining-room-ideas-4.jpg);
+             url(http://www.furnishism.com/photos/modern-dining-room-ideas-4.jpg);
         background-size: cover;
         background-position: center;
         height: 300px;
@@ -463,6 +503,8 @@ body {
         background-color: #9ca8b6;
     }    
     .glyphicon-search {
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Safari */
         transform: rotate(90deg);
     }
     .cart {
@@ -476,6 +518,8 @@ body {
         color: #7d7d7d;
     }
     .cartpointer {
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Safari */
         transform: rotate(90deg);
         margin-right: -9px;
         border-left: 8px solid transparent;
@@ -528,33 +572,71 @@ body {
     }
     .subimgone {
         background-image: 
+            -webkit-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url(http://st.hzcdn.com/simgs/be71b1d309d7e60a_4-8995/modern-living-room.jpg);
+        background-image: 
+            -moz-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url(http://st.hzcdn.com/simgs/be71b1d309d7e60a_4-8995/modern-living-room.jpg);
+        
+        background-image: 
             linear-gradient(
                 rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)
             ),
-            url(http://st.hzcdn.com/simgs/be71b1d309d7e60a_4-8995/modern-living-room.jpg);
+             url(http://st.hzcdn.com/simgs/be71b1d309d7e60a_4-8995/modern-living-room.jpg);
         background-size: cover;
         background-position: center;
         height: 125px;
     }
     .subimgtwo {
         background-image: 
-            linear-gradient(
+            -webkit-linear-gradient(
                 rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)
             ),
             url(http://superherosquad.club/wp-content/uploads/2015/09/modern-office-lobby-furniture-yrv7dnujs.jpg);
+        background-image: 
+            -moz-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url(http://superherosquad.club/wp-content/uploads/2015/09/modern-office-lobby-furniture-yrv7dnujs.jpg);
+        background-image: 
+            linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url(http://superherosquad.club/wp-content/uploads/2015/09/modern-office-lobby-furniture-yrv7dnujs.jpg);
         background-size: cover;
         background-position: center;
         height: 125px;
     }
     .subimgthree {
         background-image: 
+            -webkit-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url(http://www.furnishism.com/photos/modern-dining-room-ideas-4.jpg);
+        background-image: 
+            -moz-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url(http://www.furnishism.com/photos/modern-dining-room-ideas-4.jpg);
+        
+        background-image: 
             linear-gradient(
                 rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)
             ),
-            url(http://www.furnishism.com/photos/modern-dining-room-ideas-4.jpg);
+             url(http://www.furnishism.com/photos/modern-dining-room-ideas-4.jpg);
         background-size: cover;
         background-position: center;
         height: 125px;
@@ -581,7 +663,9 @@ body {
     }
     .fa-truck {
         color: #4a9dcf;
-        transform: scaleX(-1);
+        -ms-transform: scaleX(-1); /* IE 9 */
+        -webkit-transform: scaleX(-1); /* Safari */
+        transform: scaleX(-1); /* Standard syntax */
     }
     #featprod {
         border: 1px solid #c9d2d9;
@@ -867,6 +951,8 @@ body {
         color: #7d7d7d;
     }
     .cartpointer {
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Safari */
         transform: rotate(90deg);
         margin-right: -8px;
         border-left: 8px solid transparent;
@@ -899,7 +985,7 @@ body {
         border-radius: 0px;
         background-color: #24364a;
         border: 0;
-        
+
     }
     .navbar-inverse .navbar-nav > li > a {
         color: #ffffff;
@@ -956,35 +1042,72 @@ body {
         margin-top: 8px;
     }
     .subimgone {
+                background-image: 
+            -webkit-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url(http://st.hzcdn.com/simgs/be71b1d309d7e60a_4-8995/modern-living-room.jpg);
+        background-image: 
+            -moz-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url(http://st.hzcdn.com/simgs/be71b1d309d7e60a_4-8995/modern-living-room.jpg);
+        
         background-image: 
             linear-gradient(
                 rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)
             ),
-            url(http://st.hzcdn.com/simgs/be71b1d309d7e60a_4-8995/modern-living-room.jpg);
-        width: 100%;
+             url(http://st.hzcdn.com/simgs/be71b1d309d7e60a_4-8995/modern-living-room.jpg);
         height: 197px;
         background-size: cover;
     }
     .subimgtwo {
+                background-image: 
+            -webkit-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url(http://superherosquad.club/wp-content/uploads/2015/09/modern-office-lobby-furniture-yrv7dnujs.jpg);
+        background-image: 
+            -moz-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url(http://superherosquad.club/wp-content/uploads/2015/09/modern-office-lobby-furniture-yrv7dnujs.jpg);
+        
         background-image: 
             linear-gradient(
                 rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)
             ),
-            url(http://superherosquad.club/wp-content/uploads/2015/09/modern-office-lobby-furniture-yrv7dnujs.jpg);
-        width: 100%;
+             url(http://superherosquad.club/wp-content/uploads/2015/09/modern-office-lobby-furniture-yrv7dnujs.jpg);
         height: 197px;
         background-size: cover;
     }
     .subimgthree {
+        
+                background-image: 
+            -webkit-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url(http://www.furnishism.com/photos/modern-dining-room-ideas-4.jpg);
+        background-image: 
+            -moz-linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+             url(http://www.furnishism.com/photos/modern-dining-room-ideas-4.jpg);
+        
         background-image: 
             linear-gradient(
                 rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)
             ),
-            url(http://www.furnishism.com/photos/modern-dining-room-ideas-4.jpg);
-        width: 100%;
+             url(http://www.furnishism.com/photos/modern-dining-room-ideas-4.jpg);
         height: 197px;
         background-size: cover;
 
@@ -1009,7 +1132,9 @@ body {
     }
     .fa-truck {
         color: #4a9dcf;
-        transform: scaleX(-1)
+        -ms-transform: scaleX(-1); /* IE 9 */
+        -webkit-transform: scaleX(-1); /* Safari */
+        transform: scaleX(-1); /* Standard syntax */
     }
     #featprod {
         border: 1px solid #c9d2d9;
