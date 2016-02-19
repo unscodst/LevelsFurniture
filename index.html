@@ -6,10 +6,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>LevelsFurniture</title>
+
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css">
+
         <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -19,7 +21,7 @@
         <div>
             <header>
                 <div class="container">
-                    <div class="row pull-right hidden-xs" id="headcontact">
+                    <div class="row hidden-xs" id="headcontact">
                         <a><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
                             Need Help? Call Us 123-456-7890 |
                         </a>
@@ -36,7 +38,7 @@
                         <div class="col-lg-4 hidden-xs">
                             <img src="img/header.jpg" alt="Living Furniture">
                         </div>
-                        <div class="col-lg-4  col-lg-push-4 hidden-xs cart">
+                        <div class="col-lg-4  col-lg-push-4 visible-lg cart">
                             <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                             <span class="caret cartpointer"></span>
                             <span class="items">0</span>                            
@@ -65,15 +67,15 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand"><img src="img/header.jpg" class="visible-xs headerlogo"></a>
-                            <div class="navbar-brand cart visible-xs">
+                            <div class="navbar-brand cart hidden-lg">
                                 <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                                 <span class="caret cartpointer"></span>
                                 <span class="items">0</span>                            
                             </div>
                         </div>
-                        <div id="navbar" class="collapse navbar-collapse">
+                        <div id="navbar" class="collapse navbar-collapse visible-lg">
                             <ul class="nav navbar-nav">
-                                <li class="dropdown active hidden-xs">
+                                <li class="dropdown active visible-lg">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-bars"></i> All Categories
                                     </a>
@@ -109,7 +111,7 @@
                 <section>
                     <div class="container"><!--Main picture-->
                         <div class="row">
-                            <div class="jumbotron col-xs-12">
+                            <div class="jumbotron col-md-12 col-sm-12 col-xs-12">
                                 <h1>Dream In Comfort</h1>
                                 <p id="jumbodots">&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;</p>
                                 <p id="discount">25&#37; OFF</p>
@@ -120,20 +122,18 @@
                             </div>
                             <!-- Example row of columns -->
                             <div class="row">
-                                <div class="col-lg-4 col-xs-12">
-                                    <div class="subimgsize">
-                                        <div class="subimgone">
-                                            <p class="subimgtext">Living Room</p>
-                                        </div>
+                                <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12">  
+                                    <div class="subimgone">
+                                        <p class="subimgtext">Living Room</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-xs-12">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                     <div class="subimgtwo">
                                         <p class="subimgtext">Office Equipment</p>
                                     </div>
 
                                 </div>
-                                <div class="col-lg-4 col-xs-12">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                     <div class="subimgthree">
                                         <p class="subimgtext">Dining Room</p>
                                     </div>
@@ -164,13 +164,13 @@
                                 </div>
                                 <i class="glyphicon glyphicon-triangle-right hidden-xs"></i>
                             </div>
-                            <div class="col-lg-9 col-xs-12">
+                            <div class="col-lg-9 col-xs-12 col-sm-9">
                                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                                     <!-- Wrapper for slides -->
                                     <div class="carousel-inner">
                                         <div class="item active">
                                             <div class="row">
-                                                <div class="col-sm-4 col-xs-12">
+                                                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                                                     <div class="col-item">
                                                         <div class="photo">
                                                             <img src="img/lamp.jpg" class="img-responsive" alt="a" />
@@ -187,7 +187,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-4 hidden-xs">
+                                                <div class="col-lg-4 col-md-6 hidden-xs hidden-sm">
                                                     <div class="col-item">
                                                         <div class="photo">
                                                             <img src="img/table.jpg" class="img-responsive" alt="a" />
@@ -204,7 +204,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-4 hidden-xs">
+                                                <div class="col-lg-4 col-md-6 col-sm-6 hidden-xs">
                                                     <div class="col-item">
                                                         <div class="photo">
                                                             <img src="img/chair.jpg" class="img-responsive" alt="a" />
@@ -225,7 +225,7 @@
                                         </div>
                                         <div class="item">
                                             <div class="row">
-                                                <div class="col-sm-4 hidden-xs">
+                                                <div class="col-lg-4 col-md-6 col-sm-6 hidden-xs">
                                                     <div class="col-item">
                                                         <div class="photo">
                                                             <img src="img/lamp.jpg" class="img-responsive" alt="a" />
@@ -242,7 +242,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-4 col-xs-12">
+                                                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                                                     <div class="col-item">
                                                         <div class="photo">
                                                             <img src="img/table.jpg" class="img-responsive" alt="a" />
@@ -259,7 +259,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-4 hidden-xs">
+                                                <div class="col-lg-4 visible-lg">
                                                     <div class="col-item">
                                                         <div class="photo">
                                                             <img src="img/lamp.jpg" class="img-responsive" alt="a" />
@@ -305,7 +305,7 @@
                 <section>
                     <div class="container">
                         <div class="row outernews">
-                            <div class="container innernews col-lg-12">
+                            <div class="container innernews col-lg-12 col-sm-12">
                                 <div class="col-lg-6">
                                     <p>Join Our Newsletter</p>
                                     <p>Receive the latest news on new promotions, exclusive offers, and new arrivals.</p>
@@ -327,7 +327,7 @@
                     <div class="mainfooter">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-3 contact hidden-xs">
+                                <div class="col-lg-3 col-sm-4 contact hidden-xs">
                                     <h4>Contact</h4>
                                     <div>
                                         <i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>
@@ -342,7 +342,7 @@
                                         <p id="email"> Email Us</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-xs-12 footersection">
+                                <div class="col-lg-3 col-sm-4 col-xs-12 footersection">
                                     <h4>Categories</h4>
                                     <span class="glyphicon glyphicon-plus visible-xs"></span>
                                     <div class="hidden-xs">
@@ -356,7 +356,7 @@
                                         <p>Sale</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-xs-12 footersection">
+                                <div class="col-lg-3 col-sm-4 col-xs-12 footersection">
                                     <h4>Customer Service</h4>
                                     <span class="glyphicon glyphicon-plus visible-xs"></span>
                                     <div class="hidden-xs">
@@ -374,11 +374,11 @@
                                     <span class="glyphicon glyphicon-plus visible-xs"></span>
                                 </div>
                                 <div class="col-lg-3 col-xs-12" id="footerlogo">
-                                    <div class="hidden-xs">
+                                    <div class="hidden-xs hidden-sm">
                                         <img src="img/footer.jpg" alt="Living Furniture">
                                     </div>
                                     <h4 class="col-xs-12">Let's Connect</h4>
-                                    <div id="socialmedia" class="col-xs-12">
+                                    <div id="socialmedia" class="col-xs-12 col-sm-4 col-lg-12">
                                         <i class="fa fa-facebook"></i>
                                         <i class="fa fa-twitter"></i>
                                         <i class="fa fa-instagram"></i>
@@ -388,6 +388,8 @@
                                         <i class="fa fa-pinterest-square"></i>
                                         <i class="fa fa-flickr"></i>
                                     </div>
+                                    <i class="glyphicon glyphicon-triangle-top visible-sm"></i>
+
                                 </div>
                             </div>
                         </div>
